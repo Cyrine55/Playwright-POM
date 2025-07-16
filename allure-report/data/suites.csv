@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","31545","find car","firefox","Wed Jul 16 11:24:07 CET 2025","broken","Wed Jul 16 11:24:39 CET 2025","find new car","FindCar.spec.ts","",""
+"","31404","find car","chromium","Wed Jul 16 11:24:07 CET 2025","broken","Wed Jul 16 11:24:39 CET 2025","find new car","FindCar.spec.ts","",""
+"","7243","find car","chromium","Tue Jul 15 15:35:14 CET 2025","passed","Tue Jul 15 15:35:21 CET 2025","","FindCar.spec.ts","",""

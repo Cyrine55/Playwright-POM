@@ -1,0 +1,654 @@
+# Page snapshot
+
+```yaml
+- button
+- button
+- separator
+- banner:
+  - link "CarWale":
+    - /url: /
+    - img "CarWale"
+  - navigation:
+    - list:
+      - listitem: NEW CARS
+      - listitem: USED CARS
+      - listitem: REVIEWS & NEWS
+  - textbox "Input field"
+  - radio "Continue in English" [checked]
+  - text: Continue in English
+  - radio "हिंदी में पढ़ें"
+  - text: हिंदी में पढ़ें
+- button
+- heading "Find Your Right Car" [level=1]
+- text: Select City Type to select car name, e.g. Citroen Basalt Search City e.g. Mumbai
+- switch "New Used" [checked]
+- textbox "Input field"
+- group "Type to select car name, e.g. Citroen Basalt Search City e.g. Mumbai"
+- img "arrow-icon"
+- img "Tata Harrier EV"
+- link "Harrier EV":
+  - /url: /tata-cars/harrier-ev/
+- img "Mahindra Scorpio N"
+- link "Scorpio N":
+  - /url: /mahindra-cars/scorpio-n/
+- img "Toyota Urban Cruiser Hyryder"
+- link "Urban Cruiser Hyryder":
+  - /url: /toyota-cars/hyryder/
+- img "Hyundai Creta"
+- link "Creta":
+  - /url: /hyundai-cars/creta/
+- img "Mahindra Thar Roxx"
+- link "Thar Roxx":
+  - /url: /mahindra-cars/thar-roxx/
+- img "Mahindra XUV700"
+- link "XUV700":
+  - /url: /mahindra-cars/xuv700/
+- img "Maruti Suzuki Brezza"
+- link "Brezza":
+  - /url: /maruti-suzuki-cars/brezza/
+- img "Kia Carens Clavis EV"
+- link "Carens Clavis EV":
+  - /url: /kia-cars/carens-clavis-ev/
+- img "Tesla Model Y"
+- link "Model Y":
+  - /url: /tesla-cars/model-y/
+- link "Explore New Cars":
+  - /url: /new-cars/
+- text: Buy Used Cars in
+- list:
+  - listitem: Mumbai
+  - listitem: Bangalore
+  - listitem: Delhi
+  - listitem: Pune
+  - listitem: Navi Mumbai
+- paragraph:
+  - link "Sell Car":
+    - /url: /used/sell-car/?originId=8
+  - text: "|"
+  - link "Check Car Valuation":
+    - /url: /used/carvaluation/
+- heading "Cars by Budget" [level=2]
+- list:
+  - listitem: Cars Under 10 Lakh
+  - listitem: 10 - 20 Lakh
+  - listitem: 20 - 30 Lakh
+  - listitem: Luxury Cars
+- img "Mahindra XUV 3XO"
+- link "Mahindra XUV 3XO":
+  - /url: /mahindra-cars/xuv-3xo/
+- text: Rs. 7.99 - 15.80 Lakh View Price Breakup
+- img "Skoda Kylaq"
+- link "Skoda Kylaq":
+  - /url: /skoda-cars/kylaq/
+- text: Rs. 8.25 - 13.99 Lakh View Price Breakup
+- img "Maruti Suzuki Fronx"
+- link "Maruti Fronx":
+  - /url: /maruti-suzuki-cars/fronx/
+- text: Rs. 7.54 - 13.06 Lakh View Price Breakup
+- img "Tata Nexon"
+- link "Tata Nexon":
+  - /url: /tata-cars/nexon/
+- text: Rs. 8.00 - 15.60 Lakh View Price Breakup
+- img "Maruti Suzuki Baleno"
+- link "Maruti Baleno":
+  - /url: /maruti-suzuki-cars/baleno/
+- text: Rs. 6.70 - 9.92 Lakh View Price Breakup
+- img "Tata Punch"
+- link "Tata Punch":
+  - /url: /tata-cars/punch/
+- text: Rs. 6.20 - 10.32 Lakh View Price Breakup
+- img "Tata Altroz"
+- link "Tata Altroz":
+  - /url: /tata-cars/altroz/
+- text: Rs. 6.89 - 11.49 Lakh View Price Breakup
+- img "Renault Triber"
+- link "Renault Triber":
+  - /url: /renault-cars/triber/
+- text: Rs. 6.15 - 8.98 Lakh View Price Breakup
+- img "Maruti Suzuki Swift"
+- link "Maruti Swift":
+  - /url: /maruti-suzuki-cars/swift/
+- text: Rs. 6.49 - 9.64 Lakh View Price Breakup Showing Avg. Ex-Showroom Price, Select City
+- button "All Cars Under 10 Lakh"
+- heading "Get Offers on Popular Cars" [level=2]
+- img "Jeep Compass"
+- link "Jeep Compass":
+  - /url: /jeep-cars/compass/
+- text: Rs. 18.99 Lakh onwards
+- link "Check On Road Price":
+  - /url: /jeep-cars/compass/price-in-mumbai/
+- img "Renault Kiger"
+- link "Renault Kiger":
+  - /url: /renault-cars/kiger/
+- text: Rs. 6.15 Lakh onwards
+- link "Check On Road Price":
+  - /url: /renault-cars/kiger/price-in-mumbai/
+- img "Renault Triber"
+- link "Renault Triber":
+  - /url: /renault-cars/triber/
+- text: Rs. 6.15 Lakh onwards
+- link "Check On Road Price":
+  - /url: /renault-cars/triber/price-in-mumbai/
+- img "Toyota Glanza"
+- link "Toyota Glanza":
+  - /url: /toyota-cars/glanza/
+- text: Rs. 6.90 Lakh onwards
+- link "Check On Road Price":
+  - /url: /toyota-cars/glanza/price-in-mumbai/
+- img "Nissan Magnite"
+- link "Nissan Magnite":
+  - /url: /nissan-cars/magnite/
+- text: Rs. 6.14 Lakh onwards
+- link "Check On Road Price":
+  - /url: /nissan-cars/magnite/price-in-mumbai/
+- img "Honda City"
+- link "Honda City":
+  - /url: /honda-cars/city/
+- text: Rs. 12.42 Lakh onwards
+- link "Check On Road Price":
+  - /url: /honda-cars/city/price-in-mumbai/
+- img "Skoda Slavia"
+- link "Skoda Slavia":
+  - /url: /skoda-cars/slavia/
+- text: Rs. 10.49 Lakh onwards
+- link "Check On Road Price":
+  - /url: /skoda-cars/slavia/price-in-mumbai/
+- img "Volkswagen Virtus"
+- link "Volkswagen Virtus":
+  - /url: /volkswagen-cars/virtus/
+- text: Rs. 11.56 Lakh onwards
+- link "Check On Road Price":
+  - /url: /volkswagen-cars/virtus/price-in-mumbai/
+- img "Honda Elevate"
+- link "Honda Elevate":
+  - /url: /honda-cars/elevate/
+- text: Rs. 11.95 Lakh onwards
+- link "Check On Road Price":
+  - /url: /honda-cars/elevate/price-in-mumbai/
+- heading "All Brands" [level=2]
+- list:
+  - listitem:
+    - link "Mahindra Cars Mahindra":
+      - /url: /mahindra-cars/
+      - img "Mahindra Cars"
+      - text: Mahindra
+  - listitem:
+    - link "Maruti Suzuki Cars Maruti Suzuki":
+      - /url: /maruti-suzuki-cars/
+      - img "Maruti Suzuki Cars"
+      - text: Maruti Suzuki
+  - listitem:
+    - link "Tata Cars Tata":
+      - /url: /tata-cars/
+      - img "Tata Cars"
+      - text: Tata
+  - listitem:
+    - link "Hyundai Cars Hyundai":
+      - /url: /hyundai-cars/
+      - img "Hyundai Cars"
+      - text: Hyundai
+  - listitem:
+    - link "Toyota Cars Toyota":
+      - /url: /toyota-cars/
+      - img "Toyota Cars"
+      - text: Toyota
+  - listitem:
+    - link "Kia Cars Kia":
+      - /url: /kia-cars/
+      - img "Kia Cars"
+      - text: Kia
+  - listitem:
+    - link "BMW Cars BMW":
+      - /url: /bmw-cars/
+      - img "BMW Cars"
+      - text: BMW
+  - listitem:
+    - link "Skoda Cars Skoda":
+      - /url: /skoda-cars/
+      - img "Skoda Cars"
+      - text: Skoda
+  - listitem:
+    - link "Mercedes-Benz Cars Mercedes-Benz":
+      - /url: /mercedes-benz-cars/
+      - img "Mercedes-Benz Cars"
+      - text: Mercedes-Benz
+  - listitem:
+    - link "Tesla Cars Tesla":
+      - /url: /tesla-cars/
+      - img "Tesla Cars"
+      - text: Tesla
+  - listitem:
+    - link "MG Cars MG":
+      - /url: /mg-cars/
+      - img "MG Cars"
+      - text: MG
+  - listitem:
+    - link "Land Rover Cars Land Rover":
+      - /url: /land-rover-cars/
+      - img "Land Rover Cars"
+      - text: Land Rover
+- button "[object Object]": View More Brands
+- heading "Find The Cars Of Your Choice" [level=2]
+- text: Budget
+- link "Under 5 Lakh":
+  - /url: /new/best-cars-under-5-lakh/
+- link "Under 10 Lakh":
+  - /url: /new/best-cars-under-10-lakh/
+- link "Under 15 Lakh":
+  - /url: /new/best-cars-under-15-lakh/
+- text: Body Type
+- link "SUV":
+  - /url: /new/best-suvs/
+- link "Hatchback":
+  - /url: /new/best-hatchbacks/
+- link "Sedan":
+  - /url: /new/sedan-cars/
+- text: Fuel Type & Others
+- link "Electric":
+  - /url: /new/electric-cars/
+- link "Hybrid":
+  - /url: /new/hybrid-cars/
+- link "CNG":
+  - /url: /new/cng-cars/
+- link "7 Seater":
+  - /url: /new/7-seater-cars/
+- link "Automatic":
+  - /url: /new/best-automatic-cars/
+- link "View More Filters":
+  - /url: ""
+- heading "Upcoming and Recently Launched Cars" [level=2]
+- list:
+  - listitem: Upcoming Cars
+  - listitem: Just Launched Cars
+- img "Renault Triber 2025"
+- link "Renault Triber 2025":
+  - /url: /renault-cars/triber-2025/
+- text: Rs. 6.25 - 9.50 Lakh 23rd Jul 2025
+- img "MG M9 EV"
+- link "MG M9 EV":
+  - /url: /mg-cars/m9-ev/
+- text: Rs. 60.00 - 70.00 Lakh Jul 2025
+- img "MG Cyberster"
+- link "MG Cyberster":
+  - /url: /mg-cars/cyberster/
+- text: Rs. 60.00 - 70.00 Lakh Jul 2025 (Tentative)
+- img "Mahindra XEV 7e"
+- link "Mahindra XEV 7e":
+  - /url: /mahindra-cars/xev-7e/
+- text: Rs. 21.00 - 30.00 Lakh Aug 2025 (Tentative)
+- img "Mahindra XUV 3XO EV"
+- link "Mahindra XUV 3XO EV":
+  - /url: /mahindra-cars/xuv-3xo-ev/
+- text: Rs. 15.00 - 18.00 Lakh Aug 2025 (Tentative)
+- img "BMW New 2 Series Gran Coupe"
+- link "BMW New 2 Series Gran Coupe":
+  - /url: /bmw-cars/new-2-series-gran-coupe/
+- text: Rs. 45.00 - 50.00 Lakh 17th Jul 2025
+- img "Mahindra New Bolero"
+- link "Mahindra New Bolero":
+  - /url: /mahindra-cars/new-bolero/
+- text: Rs. 10.00 - 12.00 Lakh Oct 2025 (Tentative)
+- img "Tata Safari EV"
+- link "Tata Safari EV":
+  - /url: /tata-cars/safari-ev/
+- text: Rs. 26.00 - 30.00 Lakh Aug 2025 (Tentative)
+- img "Maruti Suzuki e Vitara"
+- link "Maruti e Vitara":
+  - /url: /maruti-suzuki-cars/e-vitara/
+- text: Rs. 20.00 - 25.00 Lakh Sep 2025 Showing Estimated Prices
+- link "All Upcoming Cars":
+  - /url: /upcoming-cars/
+- heading "Cars by Fuel Type" [level=2]
+- list:
+  - listitem: Electric Cars
+  - listitem: Hybrid Cars
+  - listitem: CNG Cars
+- img "Kia Carens Clavis EV"
+- link "Kia Carens Clavis EV":
+  - /url: /kia-cars/carens-clavis-ev/
+- text: Rs. 17.99 - 24.49 Lakh View Price Breakup
+- img "Tesla Model Y"
+- link "Tesla Model Y":
+  - /url: /tesla-cars/model-y/
+- text: Rs. 59.89 - 67.89 Lakh View Price Breakup
+- img "Mahindra BE 6"
+- link "Mahindra BE 6":
+  - /url: /mahindra-cars/be-6/
+- text: Rs. 18.90 - 27.65 Lakh View Price Breakup
+- img "Tata Harrier EV"
+- link "Tata Harrier EV":
+  - /url: /tata-cars/harrier-ev/
+- text: Rs. 21.49 - 30.23 Lakh View Price Breakup
+- img "Mahindra XEV 9e"
+- link "Mahindra XEV 9e":
+  - /url: /mahindra-cars/xev-9e/
+- text: Rs. 21.90 - 31.25 Lakh View Price Breakup
+- img "Tata Nexon EV"
+- link "Tata Nexon EV":
+  - /url: /tata-cars/nexon-ev/
+- text: Rs. 12.49 - 17.19 Lakh View Price Breakup
+- img "Tata Tiago EV"
+- link "Tata Tiago EV":
+  - /url: /tata-cars/tiago-ev/
+- text: Rs. 7.99 - 11.14 Lakh View Price Breakup
+- img "Tata Punch EV"
+- link "Tata Punch EV":
+  - /url: /tata-cars/punch-ev/
+- text: Rs. 9.99 - 14.44 Lakh View Price Breakup
+- img "MG Windsor EV"
+- link "MG Windsor EV":
+  - /url: /mg-cars/windsor-ev/
+- text: Rs. 12.00 - 15.61 Lakh View Price Breakup Showing Avg. Ex-Showroom Price, Select City
+- link "All Electric Cars":
+  - /url: /new/electric-cars/
+- heading "Compare Cars" [level=2]
+- link "Tesla Model Y Tesla Model Y Rs. 59.89 Lakh onwards VS Mercedes-Benz C-Class Mercedes-Benz C-Class Rs. 60.30 Lakh onwards":
+  - /url: /compare-cars/tesla-model-y-vs-mercedes-benz-c-class/
+  - img "Tesla Model Y"
+  - text: Tesla Model Y Rs. 59.89 Lakh onwards VS
+  - img "Mercedes-Benz C-Class"
+  - text: Mercedes-Benz C-Class Rs. 60.30 Lakh onwards
+- link "Compare Now":
+  - /url: /compare-cars/tesla-model-y-vs-mercedes-benz-c-class/
+- link "Kia Carens Clavis EV Kia Carens Clavis EV Rs. 17.99 Lakh onwards VS Toyota Innova Crysta Toyota Innova Crysta Rs. 19.99 Lakh onwards":
+  - /url: /compare-cars/kia-carens-clavis-ev-vs-toyota-innova-crysta/
+  - img "Kia Carens Clavis EV"
+  - text: Kia Carens Clavis EV Rs. 17.99 Lakh onwards VS
+  - img "Toyota Innova Crysta"
+  - text: Toyota Innova Crysta Rs. 19.99 Lakh onwards
+- link "Compare Now":
+  - /url: /compare-cars/kia-carens-clavis-ev-vs-toyota-innova-crysta/
+- link "Mahindra XUV 3XO Mahindra XUV 3XO Rs. 7.99 Lakh onwards VS Kia Sonet Kia Sonet Rs. 8.00 Lakh onwards":
+  - /url: /compare-cars/kia-sonet-vs-mahindra-xuv-3xo/
+  - img "Mahindra XUV 3XO"
+  - text: Mahindra XUV 3XO Rs. 7.99 Lakh onwards VS
+  - img "Kia Sonet"
+  - text: Kia Sonet Rs. 8.00 Lakh onwards
+- link "Compare Now":
+  - /url: /compare-cars/kia-sonet-vs-mahindra-xuv-3xo/
+- link "Mahindra Scorpio N Mahindra Scorpio N Rs. 13.99 Lakh onwards VS Tata Safari Tata Safari Rs. 15.50 Lakh onwards":
+  - /url: /compare-cars/tata-safari-vs-mahindra-scorpio-n/
+  - img "Mahindra Scorpio N"
+  - text: Mahindra Scorpio N Rs. 13.99 Lakh onwards VS
+  - img "Tata Safari"
+  - text: Tata Safari Rs. 15.50 Lakh onwards
+- link "Compare Now":
+  - /url: /compare-cars/tata-safari-vs-mahindra-scorpio-n/
+- link "Hyundai Creta Hyundai Creta Rs. 11.11 Lakh onwards VS Kia Seltos Kia Seltos Rs. 11.19 Lakh onwards":
+  - /url: /compare-cars/kia-seltos-vs-hyundai-creta/
+  - img "Hyundai Creta"
+  - text: Hyundai Creta Rs. 11.11 Lakh onwards VS
+  - img "Kia Seltos"
+  - text: Kia Seltos Rs. 11.19 Lakh onwards
+- link "Compare Now":
+  - /url: /compare-cars/kia-seltos-vs-hyundai-creta/
+- link "Maruti Suzuki Brezza Maruti Brezza Rs. 8.69 Lakh onwards VS Maruti Suzuki Fronx Maruti Fronx Rs. 7.54 Lakh onwards":
+  - /url: /compare-cars/maruti-suzuki-fronx-vs-maruti-suzuki-brezza/
+  - img "Maruti Suzuki Brezza"
+  - text: Maruti Brezza Rs. 8.69 Lakh onwards VS
+  - img "Maruti Suzuki Fronx"
+  - text: Maruti Fronx Rs. 7.54 Lakh onwards
+- link "Compare Now":
+  - /url: /compare-cars/maruti-suzuki-fronx-vs-maruti-suzuki-brezza/
+- link "Toyota Urban Cruiser Hyryder Toyota Urban Cruiser Hyryder Rs. 11.34 Lakh onwards VS Maruti Suzuki Grand Vitara Maruti Grand Vitara Rs. 11.42 Lakh onwards":
+  - /url: /compare-cars/toyota-hyryder-vs-maruti-suzuki-grand-vitara/
+  - img "Toyota Urban Cruiser Hyryder"
+  - text: Toyota Urban Cruiser Hyryder Rs. 11.34 Lakh onwards VS
+  - img "Maruti Suzuki Grand Vitara"
+  - text: Maruti Grand Vitara Rs. 11.42 Lakh onwards
+- link "Compare Now":
+  - /url: /compare-cars/toyota-hyryder-vs-maruti-suzuki-grand-vitara/
+- link "Mahindra Thar Roxx Mahindra Thar Roxx Rs. 12.99 Lakh onwards VS MG Hector MG Hector Rs. 14.25 Lakh onwards":
+  - /url: /compare-cars/mg-hector-vs-mahindra-thar-roxx/
+  - img "Mahindra Thar Roxx"
+  - text: Mahindra Thar Roxx Rs. 12.99 Lakh onwards VS
+  - img "MG Hector"
+  - text: MG Hector Rs. 14.25 Lakh onwards
+- link "Compare Now":
+  - /url: /compare-cars/mg-hector-vs-mahindra-thar-roxx/
+- link "Mahindra XUV700 Mahindra XUV700 Rs. 14.49 Lakh onwards VS Mahindra Scorpio N Mahindra Scorpio N Rs. 13.99 Lakh onwards":
+  - /url: /compare-cars/mahindra-xuv700-vs-mahindra-scorpio-n/
+  - img "Mahindra XUV700"
+  - text: Mahindra XUV700 Rs. 14.49 Lakh onwards VS
+  - img "Mahindra Scorpio N"
+  - text: Mahindra Scorpio N Rs. 13.99 Lakh onwards
+- link "Compare Now":
+  - /url: /compare-cars/mahindra-xuv700-vs-mahindra-scorpio-n/
+- link "Compare Cars of Your Choice":
+  - /url: /compare-cars/
+- heading "Used Cars By City" [level=2]
+- img "Used Cars in Delhi"
+- link "Delhi":
+  - /url: /used/delhi/
+- paragraph: 11,800+ Cars
+- paragraph: From Rs. 25,000
+- img "Used Cars in Mumbai"
+- link "Mumbai":
+  - /url: /used/mumbai/
+- paragraph: 9,100+ Cars
+- paragraph: From Rs. 30,000
+- img "Used Cars in Bangalore"
+- link "Bangalore":
+  - /url: /used/bangalore/
+- paragraph: 6,000+ Cars
+- paragraph: From Rs. 45,000
+- img "Used Cars in Pune"
+- link "Pune":
+  - /url: /used/pune/
+- paragraph: 4,600+ Cars
+- paragraph: From Rs. 50,000
+- img "Used Cars in Hyderabad"
+- link "Hyderabad":
+  - /url: /used/hyderabad/
+- paragraph: 5,400+ Cars
+- paragraph: From Rs. 50,000
+- img "Used Cars in Ahmedabad"
+- link "Ahmedabad":
+  - /url: /used/ahmedabad/
+- paragraph: 4,000+ Cars
+- paragraph: From Rs. 35,000
+- img "Used Cars in Chennai"
+- link "Chennai":
+  - /url: /used/chennai/
+- paragraph: 4,000+ Cars
+- paragraph: From Rs. 50,000
+- img "Used Cars in Kolkata"
+- link "Kolkata":
+  - /url: /used/kolkata/
+- paragraph: 2,400+ Cars
+- paragraph: From Rs. 30,000
+- img "Used Cars in Lucknow"
+- link "Lucknow":
+  - /url: /used/lucknow/
+- paragraph: 3,100+ Cars
+- paragraph: From Rs. 35,000
+- img "Used Cars in Jaipur"
+- link "Jaipur":
+  - /url: /used/jaipur/
+- paragraph: 1,800+ Cars
+- paragraph: From Rs. 40,000
+- img "Used Cars in Gurgaon"
+- link "Gurgaon":
+  - /url: /used/gurgaon/
+- paragraph: 5,400+ Cars
+- paragraph: From Rs. 75,000
+- img "Used Cars in Kanpur"
+- link "Kanpur":
+  - /url: /used/kanpur/
+- paragraph: 1,500+ Cars
+- paragraph: From Rs. 40,000
+- img "Used Cars in Chandigarh"
+- link "Chandigarh":
+  - /url: /used/chandigarh/
+- paragraph: 2,500+ Cars
+- paragraph: From Rs. 45,000
+- img "Used Cars in Patna"
+- link "Patna":
+  - /url: /used/patna/
+- paragraph: 900+ Cars
+- paragraph: From Rs. 30,000
+- img "Used Cars in Ranchi"
+- link "Ranchi":
+  - /url: /used/ranchi/
+- paragraph: 900+ Cars
+- paragraph: From Rs. 45,573
+- paragraph: Could not find city you are looking for?
+- link "Explore Cities":
+  - /url: /used/
+- heading "Popular Used Cars in India" [level=2]
+- img "Maruti Suzuki Wagon R"
+- link "Used Maruti Suzuki Wagon R":
+  - /url: /used/india/maruti-suzuki-wagon-r/
+- text: "Rs. 40,000 Onwards Explore in:"
+- link "Delhi":
+  - /url: /used/delhi/maruti-suzuki-wagon-r/
+- link "Mumbai":
+  - /url: /used/mumbai/maruti-suzuki-wagon-r/
+- link "Bangalore":
+  - /url: /used/bangalore/maruti-suzuki-wagon-r/
+- img "Maruti Suzuki Baleno"
+- link "Used Maruti Suzuki Baleno":
+  - /url: /used/india/maruti-suzuki-baleno/
+- text: "Rs. 1.5 Lakh Onwards Explore in:"
+- link "Delhi":
+  - /url: /used/delhi/maruti-suzuki-baleno/
+- link "Mumbai":
+  - /url: /used/mumbai/maruti-suzuki-baleno/
+- link "Bangalore":
+  - /url: /used/bangalore/maruti-suzuki-baleno/
+- img "Maruti Suzuki Ertiga"
+- link "Used Maruti Suzuki Ertiga":
+  - /url: /used/india/maruti-suzuki-ertiga/
+- text: "Rs. 1 Lakh Onwards Explore in:"
+- link "Delhi":
+  - /url: /used/delhi/maruti-suzuki-ertiga/
+- link "Mumbai":
+  - /url: /used/mumbai/maruti-suzuki-ertiga/
+- link "Bangalore":
+  - /url: /used/bangalore/maruti-suzuki-ertiga/
+- img "Maruti Suzuki Alto 800"
+- link "Used Maruti Suzuki Alto 800":
+  - /url: /used/india/maruti-suzuki-alto-800/
+- text: "Rs. 50,000 Onwards Explore in:"
+- link "Delhi":
+  - /url: /used/delhi/maruti-suzuki-alto-800/
+- link "Mumbai":
+  - /url: /used/mumbai/maruti-suzuki-alto-800/
+- link "Bangalore":
+  - /url: /used/bangalore/maruti-suzuki-alto-800/
+- img "Mahindra Scorpio"
+- link "Used Mahindra Scorpio":
+  - /url: /used/india/mahindra-scorpio/
+- text: "Rs. 82,000 Onwards Explore in:"
+- link "Delhi":
+  - /url: /used/delhi/mahindra-scorpio/
+- link "Mumbai":
+  - /url: /used/mumbai/mahindra-scorpio/
+- link "Bangalore":
+  - /url: /used/bangalore/mahindra-scorpio/
+- button "View More Used Cars"
+- heading "Latest Car Updates" [level=2]
+- list:
+  - listitem: Car News
+  - listitem: Expert Reviews
+  - listitem: Videos
+- link "BMW 2 Series Gran Coupe to Launch in India Tomorrow BMW 2 Series Gran Coupe to Launch in India Tomorrow By Haji Chakralwale 16 Jul 2025 BMW India is set to announce the prices of its entry-level sedan, the 2 Series Gran Coupe, tomorrow, 17 July, 2025. Bookings are already open for a token amount of Rs. 1.5 lakh.":
+  - /url: /news/bmw-2-series-gran-coupe-to-launch-in-india-tomorrow/
+  - img "BMW 2 Series Gran Coupe to Launch in India Tomorrow"
+  - text: BMW 2 Series Gran Coupe to Launch in India Tomorrow
+  - paragraph: By Haji Chakralwale 16 Jul 2025
+  - text: BMW India is set to announce the prices of its entry-level sedan, the 2 Series Gran Coupe, tomorrow, 17 July, 2025. Bookings are already open for a token amount of Rs. 1.5 lakh.
+- 'link "2025 Hyundai Aura S AMT Launched: All You Need to Know 2025 Hyundai Aura S AMT Launched: All You Need to Know By Ninad Ambre 16 Jul 2025 The Hyundai Aura S AMT is powered by a 1.2-litre petrol engine that produces 82bhp and 114Nm of torque. This mill comes mated to a five-speed AMT."':
+  - /url: /news/2025-hyundai-aura-s-amt-launched-all-you-need-to-know/
+  - 'img "2025 Hyundai Aura S AMT Launched: All You Need to Know"'
+  - text: "2025 Hyundai Aura S AMT Launched: All You Need to Know"
+  - paragraph: By Ninad Ambre 16 Jul 2025
+  - text: The Hyundai Aura S AMT is powered by a 1.2-litre petrol engine that produces 82bhp and 114Nm of torque. This mill comes mated to a five-speed AMT.
+- link "Toyota Innova Hycross Gets a Price Hike Toyota Innova Hycross Gets a Price Hike By Aditya Nadkarni 16 Jul 2025 The revision of up to Rs. 15,000 applies to select variants.":
+  - /url: /news/toyota-innova-hycross-gets-a-price-hike/
+  - img "Toyota Innova Hycross Gets a Price Hike"
+  - text: Toyota Innova Hycross Gets a Price Hike
+  - paragraph: By Aditya Nadkarni 16 Jul 2025
+  - text: The revision of up to Rs. 15,000 applies to select variants.
+- link "Mahindra Vision S Teased Again ahead of August Debut Mahindra Vision S Teased Again ahead of August Debut By Desirazu Venkat 16 Jul 2025 The Vision S is expected to debut alongside the Vision SXT pickup truck":
+  - /url: /news/mahindra-vision-s-teased-again-ahead-of-august-debut/
+  - img "Mahindra Vision S Teased Again ahead of August Debut"
+  - text: Mahindra Vision S Teased Again ahead of August Debut
+  - paragraph: By Desirazu Venkat 16 Jul 2025
+  - text: The Vision S is expected to debut alongside the Vision SXT pickup truck
+- 'link "Renault Kwid EV Test Mule Spotted on Indian Roads: Launch Imminent? Renault Kwid EV Test Mule Spotted on Indian Roads: Launch Imminent? By Dwij Bhandut 15 Jul 2025 The Kwid EV may launch in 2026."':
+  - /url: /news/renault-kwid-ev-test-mule-spotted-on-indian-roads-launch-imminent/
+  - 'img "Renault Kwid EV Test Mule Spotted on Indian Roads: Launch Imminent?"'
+  - text: "Renault Kwid EV Test Mule Spotted on Indian Roads: Launch Imminent?"
+  - paragraph: By Dwij Bhandut 15 Jul 2025
+  - text: The Kwid EV may launch in 2026.
+- link "All News":
+  - /url: /news/
+- text: Buying a New Car? Ask the Experts 08068441441 (Toll free)
+- contentinfo:
+  - text: Language:English
+  - link "हिंदी":
+    - /url: /hi/
+  - link "About Us":
+    - /url: /about-us/
+  - link "Careers":
+    - /url: /career/
+  - link "Terms & Conditions":
+    - /url: /used/sell/terms/
+  - link "Advertise":
+    - /url: /contactus/
+  - paragraph: Connect with us
+  - link "Facebook":
+    - /url: https://www.facebook.com/CarWale/
+  - link "Twitter":
+    - /url: https://twitter.com/carwale/
+  - link "YouTube":
+    - /url: https://www.youtube.com/user/CARWALE/featured
+  - link "LinkedIn":
+    - /url: https://in.linkedin.com/company/automotive-exchange-private-limited-carwale-com-
+  - link "Instagram":
+    - /url: https://www.instagram.com/carwaleindia/?hl=en
+  - paragraph: Download Mobile App
+  - list:
+    - listitem:
+      - link "CarWale Android App Download CarWale iOS App":
+        - /url: https://apps.apple.com/in/app/carwale-buy-new-used-cars/id910137745
+        - text: CarWale Android App
+        - img "Download CarWale iOS App"
+    - listitem:
+      - link "CarWale Android App Download CarWale Android App":
+        - /url: https://play.google.com/store/apps/details?id=com.carwale&referrer=utm_source%3DCarWaleMsite%26utm_medium%3DFooter%26utm_campaign=CarWale%2520MobilesiteFooter
+        - text: CarWale Android App
+        - img "Download CarWale Android App"
+  - list:
+    - listitem: CarWale
+    - listitem:
+      - link "BikeWale":
+        - /url: https://www.bikewale.com/
+    - listitem:
+      - link "CarTrade":
+        - /url: https://www.cartrade.com/
+    - listitem:
+      - link "Mobility Outlook":
+        - /url: https://www.mobilityoutlook.com/
+    - listitem:
+      - link "OLX":
+        - /url: https://www.olx.in/
+    - listitem: abSure
+  - paragraph: ©CarTrade Tech.
+  - link "Visitor Agreement":
+    - /url: /visitor-agreement/
+  - text: "&"
+  - link "Privacy Policy":
+    - /url: /privacy-policy/
+- paragraph: Login to CarWale
+- paragraph: Login to CarWale for a more personalised experience
+- button "Close Popup"
+- text: Contact Number* +91
+- textbox "Input field"
+- group "Contact Number*"
+- button "Get OTP"
+- text: Or Continue with
+- img "Whatsapp"
+- text: Whatsapp
+```

@@ -1,0 +1,86 @@
+# Page snapshot
+
+```yaml
+- button
+- button
+- separator
+- banner:
+  - link "CarWale":
+    - /url: /
+    - img "CarWale"
+  - navigation:
+    - list:
+      - listitem: NEW CARS
+      - listitem: USED CARS
+      - listitem: REVIEWS & NEWS
+  - textbox "Input field"
+- img "Loading..."
+- img "Loading..."
+- text: Buying a New Car? Ask the Experts 08068441441 (Toll free)
+- contentinfo:
+  - text: Language:English
+  - link "हिंदी":
+    - /url: /hi/
+  - link "About Us":
+    - /url: /about-us/
+  - link "Careers":
+    - /url: /career/
+  - link "Terms & Conditions":
+    - /url: /used/sell/terms/
+  - link "Advertise":
+    - /url: /contactus/
+  - paragraph: Connect with us
+  - link "Facebook":
+    - /url: https://www.facebook.com/CarWale/
+  - link "Twitter":
+    - /url: https://twitter.com/carwale/
+  - link "YouTube":
+    - /url: https://www.youtube.com/user/CARWALE/featured
+  - link "LinkedIn":
+    - /url: https://in.linkedin.com/company/automotive-exchange-private-limited-carwale-com-
+  - link "Instagram":
+    - /url: https://www.instagram.com/carwaleindia/?hl=en
+  - paragraph: Download Mobile App
+  - list:
+    - listitem:
+      - link "CarWale Android App Download CarWale iOS App":
+        - /url: https://apps.apple.com/in/app/carwale-buy-new-used-cars/id910137745
+        - text: CarWale Android App
+        - img "Download CarWale iOS App"
+    - listitem:
+      - link "CarWale Android App Download CarWale Android App":
+        - /url: https://play.google.com/store/apps/details?id=com.carwale&referrer=utm_source%3DCarWaleMsite%26utm_medium%3DFooter%26utm_campaign=CarWale%2520MobilesiteFooter
+        - text: CarWale Android App
+        - img "Download CarWale Android App"
+  - list:
+    - listitem: CarWale
+    - listitem:
+      - link "BikeWale":
+        - /url: https://www.bikewale.com/
+    - listitem:
+      - link "CarTrade":
+        - /url: https://www.cartrade.com/
+    - listitem:
+      - link "Mobility Outlook":
+        - /url: https://www.mobilityoutlook.com/
+    - listitem:
+      - link "OLX":
+        - /url: https://www.olx.in/
+    - listitem: abSure
+  - paragraph: ©CarTrade Tech.
+  - link "Visitor Agreement":
+    - /url: /visitor-agreement/
+  - text: "&"
+  - link "Privacy Policy":
+    - /url: /privacy-policy/
+- paragraph: Login to CarWale
+- paragraph: Login to CarWale for a more personalised experience
+- button "Close Popup"
+- text: Contact Number* +91
+- textbox "Input field"
+- group "Contact Number*"
+- button "Get OTP"
+- text: Or Continue with
+- img "Whatsapp"
+- text: Whatsapp
+```
