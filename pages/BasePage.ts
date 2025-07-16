@@ -29,4 +29,8 @@ async waitForTimeout(timeout:number){
 async hover(locator: string){
     await this.page.locator(locator).hover();
 }
+
+async waitElementVisible(locator: string){
+    await this.page.locator(locator).waitFor({ state: 'visible' });
+}
 }

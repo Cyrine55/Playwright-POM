@@ -17,9 +17,10 @@ async navigationHome(){
 }
 
 async findCar(){
-    //await this.newCarMenu().waitFor({ state: 'visible' });
+    
+    await this.waitElementVisible('//div[normalize-space()="NEW CARS"]');
     await this.hover('//div[normalize-space()="NEW CARS"]');
-   // await this.findCarMenu().waitFor({ state: 'visible' });
+   await this.waitElementVisible('//div[contains(text(),"Find New Cars")]');
     await this.click('//div[contains(text(),"Find New Cars")]');
     await this.waitForTimeout(2000);
 
