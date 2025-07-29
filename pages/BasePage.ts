@@ -1,7 +1,7 @@
 import { Page } from "@playwright/test";
 
 export class BasePage{
-protected page:Page;
+public page:Page;
 constructor(page:Page){
     this.page=page;
 }
@@ -16,10 +16,12 @@ async waitForTimeout(timeout:number){
 
 
   async click(locator: string) {
+    await this.waitFor(locator);
     await this.page.locator(locator).click();
   }
 
   async fill(locator: string, value: string) {
+    await this.waitFor(locator);
     await this.page.locator(locator).fill(value);
   }
 
@@ -27,10 +29,15 @@ async waitForTimeout(timeout:number){
    return await this.page.locator(locator).innerText();
   }
 async hover(locator: string){
+  await this.waitFor(locator);
     await this.page.locator(locator).hover();
 }
 
 async waitElementVisible(locator: string){
     await this.page.locator(locator).waitFor({ state: 'visible' });
 }
+
+ public async waitFor(selector: string) {
+    await this.page.waitForSelector(selector);
+  }
 }
